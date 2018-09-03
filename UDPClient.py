@@ -1,5 +1,5 @@
 from socket import *
-serverName = '127.0.0.1'
+serverName = '127.0.0.1'    //When i try to use the ip address on another computer,the codes doesn't work.Dunnp why.
 serverPort = 12000
 clientSocket = socket(AF_INET, SOCK_DGRAM)
 message = input('Input lowercase sentence:')
